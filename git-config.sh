@@ -1,0 +1,7 @@
+git config --global --add diff.guitool kdiff3
+git config --global --add difftool.kdiff3.trustExitCode false
+git config --global --add difftool.prompt false
+
+git config --global --add merge.tool kdiff3
+git config --global --add mergetool.kdiff3.trustExitCode false
+git config --global --add mergetool.prompt false
