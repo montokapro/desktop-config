@@ -1,1 +1,1 @@
-TODO: update idea version on each install
+TODO: update version on each install
