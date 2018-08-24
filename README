@@ -3,10 +3,10 @@
 HISTSIZE=1000
 HISTFILESIZE=1000000
 
-function git-pull() {
-  git pull --rebase
+function git-pull-squash() {
+   git reset --soft origin && git commit -am "$@" && git pull --rebase
 }
 
-function git-push() {
-  git reset --soft origin && git commit -m "$@" && git push
+function git-push-squash() {
+  git reset --soft origin && git commit -am "$@" && git push
 }
